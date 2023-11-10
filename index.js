@@ -1,7 +1,6 @@
 
 let first_number = ""
 let second_number = ""
-// let result = 0
 
 let start = true
 let post_equal = false
