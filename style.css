@@ -1,0 +1,62 @@
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+button {
+    font-size: 20px;
+    height: 4.5rem;
+    border: 2px solid black;
+}
+
+.calculator {
+    border: solid black 2px;
+    width: 20rem;/*120px*/
+    height: 29rem;
+    padding: 5px;
+    background-color: grey;
+    margin: auto;
+
+}
+
+#display {
+    border: solid black 2px;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(119, 239, 199);
+    text-align: center;
+    height: 5rem;
+    font-size: 30px;
+}
+
+.row {
+    margin: 10px 3px ;
+}
+
+.number-btn{
+    background-color: rgb(32, 32, 148);
+    color: white;
+    width: 4.5rem;
+}
+
+.op-btn{
+    background-color: rgb(32, 32, 148);
+    color: white;
+    width: 5.3rem;
+}
+
+#equal-btn {
+    background-color: white;
+    width: 4.5rem;  
+}
+
+#ac-btn {
+    width: 5.3rem;
+    padding-left: 4px;
+    background-color: orangered;
+    color: white;
+}

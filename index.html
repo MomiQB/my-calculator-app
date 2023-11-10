@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator App</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css"/>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1>My Calculator</h1>
+    <div class="calculator">
+        <div id="display">
+            <p id="display-p">Enter your computation:</p>
+        </div>
+        <div class="row">
+            <button class="number-btn" onclick="insert_number(7)">7</button>
+            <button class="number-btn" onclick="insert_number(8)">8</button>
+            <button class="number-btn" onclick="insert_number(9)">9</button>
+            <button class="op-btn" onclick="set_operation('x')">x</button>
+        </div>
+        <div class="row">
+            <button class="number-btn" onclick="insert_number(4)">4</button>
+            <button class="number-btn" onclick="insert_number(5)">5</button>
+            <button class="number-btn" onclick="insert_number(6)">6</button>
+            <button class="op-btn" onclick="set_operation('/')">/</button>
+        </div>
+        <div class="row">
+            <button class="number-btn" onclick="insert_number(1)">1</button>
+            <button class="number-btn" onclick="insert_number(2)">2</button>
+            <button class="number-btn" onclick="insert_number(3)">3</button>
+            <button class="op-btn" onclick="set_operation('-')">-</button>
+        </div>
+        <div class="row">
+            <button class="number-btn" onclick="insert_number(0)">0</button>
+            <button class="number-btn" onclick="set_operation('+')">+</button>
+            <button id="equal-btn" onclick="display_result()">=</button>
+            <button id="ac-btn" onclick="reset()">AC</button>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
